@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# PyTorch specific
+runs/ # Directory where TensorBoard logs or experiment results are often stored
+checkpoints/ # Directory for saving model checkpoints
+models/ # If you store pre-trained models locally and don't want to track them
+data/ # If you have large datasets that are not part of the repo
+results/ # Directory for experiment results or outputs
+*.pt
+*.pth
+*.onnx
+
+# IDE specific (e.g., VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Operating System specific
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook specific
+.ipynb_checkpoints/
